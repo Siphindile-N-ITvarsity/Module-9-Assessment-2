@@ -1,0 +1,73 @@
+body {
+    background-color: #d4cec1;
+    font-family: Arial, sans-serif;
+}
+
+.blog-header {
+    padding: 80px;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color: rgb(253, 187, 212);
+}
+
+main {
+    margin: auto;
+    padding: 40px;
+}
+
+.container-about {
+    background-color: rgb(224, 131, 68);
+    padding: 15px;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+}
+
+.card-text {
+    font-style: oblique;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+.carousel-inner {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-control-next {
+    background-color: brown;
+}
+
+.carousel-control-prev {
+    background-color: brown;
+}
+
+
+.carousel-caption {
+    background-color: brown;
+    color: white;
+}
+
+@media (max-width: 305px) {
+
+    .carousel-caption h3 {
+        font-size: 15px;
+    }
+
+    .carousel-caption {
+        padding: 5px;
+    }
+
+}
+
+footer {
+    margin-top: 40px;
+}
+
